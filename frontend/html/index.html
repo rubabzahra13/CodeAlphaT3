@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link rel="stylesheet" type="text/css" href="../css/style.css">
+    <script src="../javascript/script.js" defer></script>
+</head>
+<body>
+    <header>
+        <img src="../images/logo3.png" alt="Library Logo" id="logo">
+        <h1>Welcome to the Online Book Library</h1>
+    </header>
+    <nav>
+        <button onclick="location.href='novels.html'">Novels</button>
+        <button onclick="location.href='foreign_language.html'">Foreign Language</button>
+        <button onclick="location.href='mathematics.html'">Mathematics</button>
+        <button onclick="location.href='history.html'">History</button>
+        <button onclick="location.href='medical.html'">Medical</button>
+    </nav>
+    <div id="search-container">
+        <input type="text" id="search-bar" placeholder="Search books...">
+        <button id="search-button" onclick=searchFunction()>Search</button>
+    </div>
+    <div id="book-container">
+        <!-- Example Book Entry -->
+        <div class="book">
+            <img src="book_cover.jpg" alt="Book Cover" class="book-cover">
+            <div class="book-info">
+                <h2>Book Title</h2>
+                <p class="author">Author Name</p>
+                <p class="description">Brief description of the book...</p>
+            </div>
+        </div>
+        <!-- Add more book entries as needed -->
+    </div>
+
+    <div id="book-detail-modal" class="modal">
+        <div class="modal-content">
+            <span class="close-button" onclick="closeModal()">&times;</span>
+            <div class="modal-content-main">
+                <h2 id="bookTitle">Book Title</h2>
+                <p id="bookAuthor">Author: </p>
+                <p id="bookYear">Year: </p>
+                <img id="bookImage" src="" alt="Book Cover" style="max-width:200px; height:auto;">
+                <p id="bookDescription">Description: </p>
+            </div>
+
+            <button id="delete-button">Delete</button>
+        </div>
+    </div>
+
+
+    <div id="add-book-container">
+        <button onclick="location.href='add_book.html'">Add New Book</button>
+    </div>
+    <footer>
+        <p>&copy; 2023 Online Book Library</p>
+    </footer>
+</body>
+</html>

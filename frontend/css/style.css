@@ -1,0 +1,271 @@
+/* Basic Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body and Font Styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f3f3f3;
+    color: #333;
+}
+
+/* Header Styles */
+header {
+    background-color: #4CAF50;
+    color: white;
+    text-align: center;
+    padding: 1em 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+    padding: 20px;
+}
+
+#logo {
+    width: 150px;
+    height: auto;
+}
+
+/* Navigation Styles */
+nav {
+    text-align: center;
+    margin: 1em 0;
+}
+
+nav button {
+    background-color: #ddd;
+    border: none;
+    padding: 10px 15px;
+    margin: 5px;
+    cursor: pointer;
+}
+
+nav button:hover {
+    background-color: #ccc;
+}
+
+/* Search Bar Styles */
+#search-container {
+    text-align: center;
+    margin: 20px 0;
+}
+
+#search-bar {
+    padding: 10px;
+    width: 300px;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+}
+
+#search-button, #delete-button {
+    padding: 10px 15px;
+    border-radius: 5px;
+    border: none;
+    background-color: #4CAF50;
+    color: white;
+    cursor: pointer;
+}
+
+#delete-button {
+    background-color: #f44336;
+    margin-top: 30px;
+    font-size: larger;
+}
+
+#search-button:hover {
+    background-color: #45a049;
+}
+
+/* add book */
+#add-book-container {
+    text-align: center;
+    margin: 20px 0;
+    margin-bottom: 100px;
+}
+
+#add-book-container button {
+    padding: 10px 15px;
+    border-radius: 5px;
+    border: none;
+    background-color: #008CBA; /* Change color as needed */
+    color: white;
+    cursor: pointer;
+    font-size: 1em;
+}
+
+#add-book-container button:hover {
+    background-color: #007B9A;
+}
+
+
+/* Book Container Styles */
+.book-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 20px;
+
+    cursor: pointer;
+    margin-bottom: 100px;
+}
+
+.book {
+    background-color: white;
+    border: 1px solid #ddd;
+    margin: 10px;
+    width: 300px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+}
+
+.book-cover {
+    width: 300px;
+    height: 300px;
+    object-fit: contain;
+}
+
+.book-info {
+    padding: 15px;
+}
+
+.book-info h2 {
+    margin: 0 0 10px 0;
+    color: #333;
+}
+
+.book-info .author {
+    font-style: italic;
+    color: #666;
+}
+
+.book-info .description {
+    font-size: 0.9em;
+    line-height: 1.4;
+    color: #444;
+}
+
+/* Footer Styles */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 1em 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+/* add book */
+.form-container {
+    width: 80%;
+    max-width: 500px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: white;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+
+    margin-bottom: 100px;
+}
+
+#add-book-form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+#add-book-form label {
+    font-weight: bold;
+}
+
+#add-book-form input[type="text"],
+#add-book-form input[type="number"],
+#add-book-form textarea {
+    padding: 8px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+#add-book-form textarea {
+    height: 100px;
+}
+
+#add-book-form button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+#add-book-form button:hover {
+    background-color: #45a049;
+}
+
+#form-message{
+    color: red;
+    font-weight: bold;
+
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+#form-message.success{
+    color: green;
+}
+
+/* The Modal (background) */
+#book-detail-modal {
+
+    padding-top: 100px;
+
+    display: none; 
+    position: fixed; /* Stay in place */
+    z-index: 2; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); 
+    background-color: rgba(0,0,0,0.4); 
+}
+
+/* Modal Content */
+.modal-content {
+    background-color: #fefefe;
+    margin: auto auto; /* 15% from the top and centered */
+    padding: 20px;
+    border: 1px solid #888;
+    width: 30%; /* Could be more or less, depending on screen size */
+    border-radius: 5px;
+}
+
+.modal-content-main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+.modal-content-main p {
+    font-size: larger;
+}
+
+/* The Close Button */
+.close-button {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close-button:hover,
+.close-button:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}

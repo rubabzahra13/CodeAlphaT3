@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Novels - Online Book Library</title>
+    <link rel="stylesheet" type="text/css" href="../css/style.css">
+    <script src="../javascript/script.js" defer></script>
+</head>
+<body>
+    <header>
+        <img src="../images/logo3.png" alt="Library Logo" id="logo">
+        <h1>Novels Collection</h1>
+    </header>
+    <nav>
+        <button onclick="location.href='index.html'">Home</button>
+        <!-- Add more buttons as needed for navigation -->
+    </nav>
+
+    <div id="book-container">
+        <!-- Example Book Entry -->
+        <!-- <div class="book">
+            <img src="book_cover.jpg" alt="Book Cover" class="book-cover">
+            <div class="book-info">
+                <h2>Book Title</h2>
+                <p class="author">Author Name</p>
+                <p class="description">Brief description of the book...</p>
+            </div>
+        </div> -->
+        <!-- Add more book entries as needed -->
+        
+    </div>
+
+    <div id="book-detail-modal" class="modal">
+        <div class="modal-content">
+            <span class="close-button" onclick="closeModal()">&times;</span>
+            <div class="modal-content-main">
+                <h2 id="bookTitle">Book Title</h2>
+                <p id="bookAuthor">Author: </p>
+                <p id="bookYear">Year: </p>
+                <img id="bookImage" src="" alt="Book Cover" style="max-width:200px; height:auto;">
+                <p id="bookDescription">Description: </p>
+            </div>
+
+            <button id="delete-button">Delete</button>
+        </div>
+    </div>
+
+    <footer>
+        <p>&copy; 2023 Online Book Library</p>
+    </footer>
+</body>
+</html>

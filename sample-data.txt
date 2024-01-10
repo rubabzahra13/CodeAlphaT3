@@ -1,0 +1,39 @@
+Title: "The Catcher in the Rye"
+Author: J.D. Salinger
+Genre: "Novels"
+ISBN: "9780316769488"
+Year: 1951
+Description: "A classic novel originally published for adults, it has since become popular with adolescent readers for its themes of teenage angst and alienation."
+Image Source: "https://m.media-amazon.com/images/I/91ycNzZu1mL._AC_UF1000,1000_QL80_.jpg"
+
+Title: "Le Petit Prince" (The Little Prince)
+Author: Antoine de Saint-Exupéry
+Genre: "Foreign Language"
+ISBN: "9780156012195"
+Year: 1943
+Description: "A tender tale of loneliness, friendship, love, and loss, in the form of a young prince fallen to Earth."
+Image Source: "https://m.media-amazon.com/images/I/41AVdqmfkML._AC_UF1000,1000_QL80_.jpg"
+
+Title: "The Joy of x: A Guided Tour of Math, from One to Infinity"
+Author: Steven Strogatz
+Genre: "Math"
+ISBN: "9780544105850"
+Year: 2012
+Description: "An engaging and accessible guided tour of the beauty and fun of mathematics, from one to infinity."
+Image Source: "https://m.media-amazon.com/images/I/61vdWlA1CDL._AC_UF1000,1000_QL80_.jpg"
+
+Title: "A People's History of the United States"
+Author: Howard Zinn
+Genre: "History"
+ISBN: "9780062397348"
+Year: 1980
+Description: "A classic history book that recounts American history from the perspective of those whose plight is often omitted from most histories."
+Image Source: "https://m.media-amazon.com/images/I/71Zb-D8NaGL._AC_UF1000,1000_QL80_.jpg"
+
+Title: "Complications: A Surgeon's Notes on an Imperfect Science"
+Author: Atul Gawande
+Genre: "Medical"
+ISBN: "9780805063196"
+Year: 2002
+Description: "A book that gives a rare, unvarnished view of the realities of surgery, offering a candid look at the challenges faced by modern medicine."
+Image Source: "https://m.media-amazon.com/images/I/71bB33otSNL._AC_UF894,1000_QL80_.jpg"

@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Add Book - Online Book Library</title>
+    <link rel="stylesheet" type="text/css" href="../css/style.css">
+    <script src="../javascript/add_book.js" defer></script>
+</head>
+<body>
+    <header>
+        <img src="../images/logo3.png" alt="Library Logo" id="logo">
+        <h1>Add a New Book</h1>
+    </header>
+    <nav>
+        <button onclick="location.href='index.html'">Home</button>
+        <!-- Other navigation buttons if necessary -->
+    </nav>
+
+    <div class="form-container">
+
+        <div id="form-message"></div>
+
+        <form id="add-book-form">
+            <label for="title">Book Title:</label>
+            <input type="text" id="title" name="title">
+
+            <label for="author">Author:</label>
+            <input type="text" id="author" name="author">
+
+            <label for="genre">Genre:</label>
+            <input type="text" id="genre" name="genre">
+
+            <label for="isbn">ISBN:</label>
+            <input type="text" id="isbn" name="isbn">
+
+            <label for="year">Publication Year:</label>
+            <input type="number" id="year" name="year">
+
+            <label for="description">Description:</label>
+            <textarea id="description" name="description"></textarea>
+
+            <label for="cover">Cover Image:</label>
+            <input type="text" id="imgsrc" name="cover">
+
+            <button type="submit">Add Book</button>
+        </form>
+
+    </div>
+
+    <footer>
+        <p>&copy; 2023 Online Book Library</p>
+    </footer>
+</body>
+</html>
